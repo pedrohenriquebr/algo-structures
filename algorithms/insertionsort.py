@@ -3,6 +3,7 @@ from typing import List
 
 data = [13,2,1,3,8,5]
 
+# Insere os maiores valores para a direita
 def insertionsort(arr: List[int]) -> List[int]:
     for i in range(1, len(arr)):
         atual = arr[i]
